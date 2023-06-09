@@ -1,0 +1,72 @@
+body {
+    /* Set background gradient */
+    background-image: linear-gradient(to bottom, aqua, rgb(48, 78, 113));
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+.dragzone {
+    /* Style the drag zone container */
+    display: inline-block;
+    margin: 5px;
+    background-color: wheat;
+    border: 2px solid black;
+    width: 200px;
+    height: 550px;
+}
+
+.draggables {
+    /* Style the draggable items */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4%;
+    border: 2px solid black;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(109, 159, 217);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.draggables:hover {
+    /* Change background color on hover */
+    background-color: bisque;
+}
+
+button {
+    /* Style the reset button */
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: x-large;
+    background-color: wheat;
+}
+
+button:hover {
+    /* Change background color on hover */
+    background-color: rgb(109, 159, 217);
+}
+
+#drag.dragstart {
+    /* Style the dragged item during drag */
+    background-color: aqua;
+}
+
+#d2 .draggables {
+    /* Style the dropped items in d2 */
+    background-color: rgb(118, 224, 118);
+}
